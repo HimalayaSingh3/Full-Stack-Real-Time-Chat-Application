@@ -1,0 +1,68 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.login img{
+    height: 400px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    background: #ffffff;
+    padding:30px 30px;
+}
+.form-input{
+    padding:10px 10px;
+    width: 300px;
+    outline-color: #077EFF;
+    border:1px solid grey;
+    border-radius: 4px;
+}
+.form-input h2{
+    font-weight: 500;
+}
+.login-form button{
+    padding: 8px 10px;
+    background: #077EFF;
+    color:white;
+    border-radius: 4px;
+    border:none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+}
+.login-term{
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color:grey;
+}
+.login-term div{
+    width: 10px;
+    display: flex;
+    text-align: start;
+}
+.login-forget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.login-toggle{
+    font-size: 13px;
+    color:grey;
+}
+.login-toggle span{
+    color:#077EFF;
+    font-weight: 500;
+    cursor: pointer;
+}
